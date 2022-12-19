@@ -14,7 +14,7 @@ spec:
   destination:
     namespace: dev
     server: 'https://kubernetes.default.svc'
-  project: tenant
+  project: default
   source:
     path: webstore-app/overlays/dev
     repoURL: https://github.com/VirtoCommerce/vc-webstore-deploy

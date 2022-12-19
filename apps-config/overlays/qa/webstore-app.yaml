@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: qa
     server: https://kubernetes.default.svc
-  project: tenant
+  project: default
   source:
     path: webstore-app/overlays/qa
     repoURL: https://github.com/VirtoCommerce/vc-webstore-deploy
